@@ -23,8 +23,33 @@ void printBinary(int number) {
                                                                                         
                                                                                             return 0;
                                                                                             }
-
                                                                                             
+
+
+
+  
+
+
+                     
+        
+                     
+                                        
+                              
+                                           
+
+             
+                            
+                                                                
+                                                              
+                                                                
+                                                                            
+                                                                               
+
+                                                                                        
+                                                                       
+                                                                              
+
+
 
 
 
