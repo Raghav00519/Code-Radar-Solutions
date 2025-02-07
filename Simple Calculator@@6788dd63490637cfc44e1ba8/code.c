@@ -1,35 +1,70 @@
 #include <stdio.h>
-
 int main() {
-    int num1, num2;
-        char operator;
+    int a,b;
+        char oper;
+            scanf("%d %d ",&a,&b);
 
-            // Input two integers and an operator
-                scanf("%d %d %c", &num1, &num2, &operator);
+                scanf("%c",&oper);
+                    switch(oper){
+                            case '+':
+                                        printf("%d",a+b);
+                                                    break;
+                                                            case '-':
+                                                                        printf("%d",a-b);
+                                                                                    break;
+                                                                                            case '*':
+                                                                                                        printf("%d",a*b);
+                                                                                                                    break;
+                                                                                                                            case '/':
+                                                                                                                                        if(b!=0){
+                                                                                                                                                        printf("%d",a/b);
+                                                                                                                                                                    }
+                                                                                                                                                                                else{
+                                                                                                                                                                                                printf("error");
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        break;
+                                                                                                                                                                                                                                default:
+                                                                                                                                                                                                                                            printf("error");
+                                                                                                                                                                                                                                                }
 
-                    // Perform the calculation based on the operator
-                        switch (operator) {
-                                case '+':
-                                            printf("%d\n", num1 + num2);
-                                                        break;
-                                                                case '-':
-                                                                            printf("%d\n", num1 - num2);
-                                                                                        break;
-                                                                                                case '*':
-                                                                                                            printf("%d\n", num1 * num2);
-                                                                                                                        break;
-                                                                                                                                case '/':
-                                                                                                                                            // Check for division by zero
-                                                                                                                                                        if (num2 != 0) {
-                                                                                                                                                                        printf("%d\n", num1 / num2);
-                                                                                                                                                                                    } else {
-                                                                                                                                                                                                    printf("Error\n");  // Division by zero error
-                                                                                                                                                                                                                }
-                                                                                                                                                                                                                            break;
-                                                                                                                                                                                                                                    default:
+                                                                                                                                                                                                                                                    return 0;
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                    
+
+
+   
+
+
+
+
+
+
+  
+
+
+
+    
+                 
+                                 
+                                    
+                                          
+                        
+                                                    
+                                                               
+                                                                                             
+               
+                                                                         
+                                                                                                                              
+                                                                                                                                            
+                                                                                                                                                            
+                                                                                                                                                                    
+                                                                                                                                                                              
+                                                                                                                                                                                            
+                                                                                                                                                                                               
+                                                                                                                                                                                             
                                                                                                                                                                                                                                           
 
-                                                                                                                                                                                                                                          
+
 
 
 
