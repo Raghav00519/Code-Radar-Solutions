@@ -2,19 +2,34 @@
 
 int main() {
     int N;
-        printf("Enter the number of rows: ");
-            scanf("%d", &N);
+        scanf("%d", &N);  // Read the number of rows
+
+            for (int i = N; i >= 1; i--) {  // Loop from N down to 1
+                    for (int j = 0; j < i; j++) {  // Print 'i' stars in each row
+                                printf("* ");
+                                        }
+                                                printf("\n");  // New line after each row
+                                                    }
+
+                                                        return 0;
+                                                        }
+                                                        
+
+
+
+
+
                 
-                    for (int i = N; i >= 1; i--) {      // Loop for each row
-                            for (int j = 1; j <= i; j++) { // Loop to print stars in each row
-                                        printf("* ");
-                                                }
-                                                        printf("\n"); // Move to next line after each row
-                                                            }
+
+                       
+          
+                        
+                                                     
+                   
                                                                 
-                                                                    return 0;
-                                                                    }
-                                                                    
+                                                
+                                               
+
 
 
 
